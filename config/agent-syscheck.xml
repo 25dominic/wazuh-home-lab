@@ -1,0 +1,6 @@
+<!-- Wazuh agent File Integrity Monitoring configuration -->
+<!-- Location on Windows: C:\Program Files (x86)\ossec-agent\ossec.conf, inside <syscheck> -->
+<syscheck>
+  <!-- Watch this folder in real time for files and folders being created, changed or deleted -->
+  <directories realtime="yes">C:\Users\dominic\Downloads\WAZUH-TEST</directories>
+</syscheck>
