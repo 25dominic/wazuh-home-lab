@@ -74,13 +74,16 @@ Wazuh's vulnerability detection and system inventory gave a single view of each 
 
 ---
 
-## Custom detection rules
+## File monitoring
 
-I wrote custom Wazuh rules to alert on endpoint activity, including:
-- creation and deletion of files and folders
-- deletion of content, including downloaded files
+I configured Wazuh **File Integrity Monitoring (FIM)** in real-time mode on the Windows 11 agent to detect:
+- creation of files and folders
+- modification of files
+- deletion of files, folders and downloaded content
 
-The rules are in [`rules/local_rules.xml`](rules/local_rules.xml).
+When a change happens, Wazuh's built-in rules raise alerts (554 file added, 550 file modified, 553 file deleted).
+
+Configuration: [`config/agent-syscheck.xml`](config/agent-syscheck.xml)
 
 ---
 
