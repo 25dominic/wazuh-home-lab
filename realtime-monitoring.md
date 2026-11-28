@@ -178,6 +178,16 @@ rm ~/Desktop/wazuh-test2.txt
 | File renamed | 553 + 554 | Delete + add pair |
 
 Expand any event to see `syscheck.audit.user.name` (who made the change) and `syscheck.audit.process.name` (which program, for example `explorer.exe` or `powershell.exe`).
+```
+
+### Windows endpoint: real-time FIM events
+![Windows FIM events](screenshots/fim-events-windows.png)
+
+### Linux endpoint: real-time FIM events
+![Linux FIM events](screenshots/agent-linux-target.png)
+
+### Windows endpoint overview
+![Windows agent overview](screenshots/agent-windows.png)
 
 ---
 
