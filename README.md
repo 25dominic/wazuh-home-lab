@@ -105,3 +105,8 @@ Configuration: [`config/agent-syscheck.xml`](config/agent-syscheck.xml)
 - [ ] Simulate attacks (e.g. with Atomic Red Team) and confirm the rules detect them
 - [ ] Connect my [IOC Triage Tool](https://github.com/25dominic/comp-triage) to enrich Wazuh alerts with VirusTotal and AbuseIPDB
 - [ ] Add Sysmon to the Windows endpoints for more detailed process and network logs
+
+---
+## Documentation
+
+- [Real-Time File Integrity Monitoring (Windows + Linux)](fim-realtime-monitoring.md)
