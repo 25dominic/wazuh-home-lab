@@ -109,4 +109,4 @@ Configuration: [`config/agent-syscheck.xml`](config/agent-syscheck.xml)
 ---
 ## Documentation
 
-- [Real-Time File Integrity Monitoring (Windows + Linux)](fim-realtime-monitoring.md)
+- [Real-Time File Integrity Monitoring (Windows + Linux)](realtime-monitoring.md)
